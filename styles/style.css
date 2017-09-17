@@ -39,3 +39,12 @@
     text-align: right;
     width: 40%;
   }
+  .buttons {
+    width: 100%;
+  }
+  .buttons input {
+    width: 50%;
+  }
+  p {
+    font-size: 15px;
+  }

@@ -11,18 +11,30 @@
 
 <body>
     <section class="task_1">
-        <h2>"Задание №1"</h2>   
+        <h2>Задание №1</h2>
         <form>
-            <label for="firstArray">Заполните первый массив</label>
-            <input type="text" name="firstArray" id="firstArray" placeholder="значения через запятую">
-            <input type="button" value="Заполнить"> <br>
-            <label for="secondArray">Заполните второй массив</label>
-            <input type="text" name="secondArray" id="secondArray" placeholder="значения через запятую">
-            <input type="button" value="Заполнить"> <br>
-            <label for="thirdArray">Заполните третий массив</label>
-            <input type="text" name="thirdArray" id="thirdArray" placeholder="значения через запятую">
-            <input type="button" value="Заполнить"> <br>
+            <div>
+                <label for="firstArray">Заполните первый массив</label>
+                <input type="text" name="firstArray" placeholder="значения через запятую">
+                <br>
+            </div>
+            <div>
+                <label for="secondArray">Заполните второй массив</label>
+                <input type="text" name="secondArray" placeholder="значения через запятую">
+                <br>
+            </div>
+            <div>
+                <label for="thirdArray">Заполните третий массив</label>
+                <input type="text" name="thirdArray" placeholder="значения через запятую">
+                <br>
+            </div>
+            <div class="buttons">
+                <input type="button" value="result" name="result">
+                <input type="button" value="reset" name="reset" disabled="disabled">
+            </div>
+            <p class="resultValue">Результат: </p>
         </form>
+        <hr>
     </section>
 
     <script src="./scripts/task_1.js"></script>
